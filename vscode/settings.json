@@ -1,0 +1,94 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    // "workbench.iconTheme": "vs-seti",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editor.tabSizing": "shrink",
+    "window.zoomLevel": 0,
+    "window.openFilesInNewWindow": "on",
+    // Pre VS Code 1.15
+    "emmet.syntaxProfiles": {
+        "javascript": "jsx"
+    },
+    // As of VS Code 1.15
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "javascript.format.enable": true,
+    "sublimeTextKeymap.promptV3Features": true,
+    "prettier.singleQuote": true,
+    "eslint.enable": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.tabSize": 2,
+    "editor.autoClosingBrackets": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Fira Mono",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 24,
+    "editor.scrollBeyondLastColumn": 5,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
+    // Disable debug icon
+    "editor.glyphMargin": true,
+    "editor.folding": false,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": true,
+    "explorer.openEditors.visible": 0,
+    // "window.nativeTabs": true,
+    "window.menuBarVisibility": "toggle",
+    "window.title": "${activeEditorMedium}",
+    "files.associations": {},
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.maxMemoryForLargeFilesMB": 40960,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "html.format.endWithNewline": true,
+    "html.format.extraLiners": "",
+    "html.format.wrapLineLength": 80,
+    // LinuNumber bar
+    "git.decorations.enabled": false,
+    "prettier.eslintIntegration": true,
+    // "prettier.tabWidth": 2,
+    "cSpell.userWords": [
+        "consts",
+        "divs",
+        "navinweb",
+        "roboto",
+        "todos"
+    ],
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "importCost.javascriptExtensions": [
+        "\\.jsx?$"
+    ],
+    "debug.hideActionBar ": false,
+    // PHP
+    // "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    // "php-cs-fixer.config": "/Users/anatolijkirzo/.vscode/.php_cs",
+    // "php-cs-fixer.lastDownload": 1533904943699,
+    // "php.validate.enable": false,
+    // "php.validate.executablePath": "/usr/bin/php",
+    // "php.validate.run": "onSave",
+}

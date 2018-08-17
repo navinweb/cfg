@@ -1,0 +1,23 @@
+{
+
+	"pf": {
+		"prefix": "pf",
+		"body": [
+			"public function $1() {",
+			"  $0;",
+			"}"
+		],
+		"description": "Public function"
+	},
+
+	"__construct": {
+		"prefix": "__c",
+		"body": [
+			"public function __construct() {",
+			"  \\$this->$0;",
+			"}"
+		],
+		"description": "construct"
+	},
+
+}
