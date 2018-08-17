@@ -1,0 +1,21 @@
+#MAIN ALIASES
+alias mysql='/usr/local/bin/mysql'
+alias val='~/.composer/vendor/bin/valet'
+alias lrl='~/.composer/vendor/bin/laravel'
+alias unit='~/.composer/vendor/bin/phpunit'
+alias sb="open -a /Applications/programming/Sublime\ Text.app"
+alias apps="cd /Applications/MAMP/htdocs/"
+alias cfg="vim ~/.zshrc"
+alias ref="source ~/.zshrc"
+alias als="vim ~/.aliases"
+alias bws="brew services list"
+alias cdv="cd /Users/anatolijkirzo/.valet/Sites/"
+
+#GIT ALIASES
+alias gs="git status"
+alias gl="git log"
+alias gm="git checkout master"
+alias ga="git add ."
+alias gc="git commit -m"
+alias gfff="git flow feature finish"
+alias gffs="git flow feature start"
