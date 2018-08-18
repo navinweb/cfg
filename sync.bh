@@ -1,9 +1,23 @@
 #!/bin/bash
 
-rsync -a ~/Library/Application\ Support/Code/User/ ./vscode --exclude workspaceStorage;
+VSCODE_DIR=~/Library/Application\ Support/Code/User/
+ZSH_FILE=~/.zshrc
+ALIASE_FILE=~/.aliases
 
-echo 'copy vscode config done';
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+NC='\033[0m'
 
-rsync -a ~/.zshrc ~/.aliases ./zsh;
+#COPY VSCODE
+if rsync -a "$VSCODE_DIR" ./vscode --exclude workspaceStorage; then
+  echo -e "${GREEN}copy vscode config done${NC}"
+else
+  echo -e "${RED}an error has occurred${NC}"
+fi
 
-echo 'copy zsh config done';
+#COPY ZSH
+if rsync -a "$ZSH_FILE" "$ALIASE_FILE" ./zsh; then
+  echo -e "${GREEN}copy zsh config done${NC}"
+else
+  echo -e "${RED}an error has occurred${NC}"
+fi
