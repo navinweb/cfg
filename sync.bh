@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rsync -a ~/Library/Application\ Support/Code/User/ ./vscode --exclude workspaceStorage;
+
+echo 'copy vscode config done';
+
+rsync -a ~/.zshrc ~/.aliases ./zsh;
+
+echo 'copy zsh config done';
